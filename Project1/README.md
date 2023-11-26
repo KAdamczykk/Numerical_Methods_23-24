@@ -11,7 +11,7 @@ where $T_n(x)$ - Chebyshev polynomial of first kind, $U_n(x)$ - Chebyshev polyno
 1. [Plots](Plots) - all generated plots and images by me
 2. [code](code) - all matlab scripts:
 * [Chebyshev1stkind](code/Chebyshev1stkind.m) - generating value of polynomials and derivatives of Chebyshev polynomials of 1st kind
-* [Chebyshev2stkind](code/Chebyshev2stkind.m) - generating value of polynomials and derivatives of Chebyshev polynomials of 2nd kind
+* [Chebyshev2stkind](code/Chebyshev2ndkind.m) - generating value of polynomials and derivatives of Chebyshev polynomials of 2nd kind
 * [GUI_plots_roots](code/GUI_plots_roots.mlapp) - GUI application, that we can choose parameters on one tab, and after pushing start,
 
    it is plot on second tab
