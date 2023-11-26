@@ -10,15 +10,15 @@ where $T_n(x)$ - Chebyshev polynomial of first kind, $U_n(x)$ - Chebyshev polyno
 ### Project structure:
 1. [Plots](Plots) - all generated plots and images by me
 2. [code](code) - all matlab scripts:
-* [Chebyshev1stkind](Chebyshev1stkind.m) - generating value of polynomials and derivatives of Chebyshev polynomials of 1st kind
-* [Chebyshev2stkind](Chebyshev2stkind.m) - generating value of polynomials and derivatives of Chebyshev polynomials of 2nd kind
-* [GUI_plots_roots](GUI_plots_roots.mlapp) - GUI application, that we can choose parameters on one tab, and after pushing start,
+* [Chebyshev1stkind](code/Chebyshev1stkind.m) - generating value of polynomials and derivatives of Chebyshev polynomials of 1st kind
+* [Chebyshev2stkind](code/Chebyshev2stkind.m) - generating value of polynomials and derivatives of Chebyshev polynomials of 2nd kind
+* [GUI_plots_roots](code/GUI_plots_roots.mlapp) - GUI application, that we can choose parameters on one tab, and after pushing start,
 
    it is plot on second tab
-* [Newton](Newton.m) - main method, that calculate the roots of polynomial
-* [Plot](Plot.m) - generating plots, which we can see also in GUI
-* [ReturnDerivative](ReturnDerivative.m) - returning value of derivative for main polynomial
-* [ReturnPolynomial](ReturnPolynomial.m) - returning value of main polynomial
-* [built_in](built_in.m) - roots from built-in functions
-* [script](skript.m) - main script with tests of numerical errors
+* [Newton](code/Newton.m) - main method, that calculate the roots of polynomial
+* [Plot](code/Plot.m) - generating plots, which we can see also in GUI
+* [ReturnDerivative](code/ReturnDerivative.m) - returning value of derivative for main polynomial
+* [ReturnPolynomial](code/ReturnPolynomial.m) - returning value of main polynomial
+* [built_in](code/built_in.m) - roots from built-in functions
+* [script](code/skript.m) - main script with tests of numerical errors
 
