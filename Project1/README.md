@@ -3,8 +3,10 @@
 ### About project
 On first project, my task, was to create methods, that can find the roots of following polynomial,
 using Newton's method. The polynomial is given by:
-\[ w_n(x) = a_0 \cdot (T_0(x) - U_0(x)) + \ldots + a_n \cdot (T_n(x) - U_n(x)) \],
-where \[T_n(x)\] - Chebyshev polynomial of first kind, \[U_n(x)\] - Chebyshev polynomial odfsecond type
+\[
+W_n(x) = a_0 \cdot (T_0(x) - U_0) + \ldots + a_n \cdot (T_n(x) - U_n(x))
+\]
+where \(T_n(x)\) - Chebyshev polynomial of first kind, \(U_n(x)\) - Chebyshev polynomial of second type
 ### Project structure:
 1. [Plots](Plots) - all generated plots and images by me
 2. [code](code) - all matlab scripts:
@@ -18,3 +20,6 @@ where \[T_n(x)\] - Chebyshev polynomial of first kind, \[U_n(x)\] - Chebyshev po
 * [ReturnPolynomial](ReturnPolynomial.m) - returning value of main polynomial
 * [built_in](built_in.m) - roots from built-in functions
 * [script](skript.m) - main script with tests of numerical errors
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
